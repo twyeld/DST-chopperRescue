@@ -3,7 +3,7 @@
 
 This is an early pre-release example of a DST project that was developed to demonstrate visualisation as a service.
 
-It was built to demonstrate extensibility of docker with an xpra VC x-window on multiple machines.
+It was built to demonstrate extensibility of docker with an xpra VNC x-window on multiple machines.
 
 It shows performance of FPS is dependent on platform.
 
