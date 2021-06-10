@@ -13,7 +13,7 @@ This was fixed in later versions.
 
 The final training NN is classified.
 
-#Presentaiton of project to the 4th Modelling Complex Warfighting Symposium 11-12 December 2019
+# Presentaiton of project to the 4th Modelling Complex Warfighting Symposium 11-12 December 2019
 ![image001](https://user-images.githubusercontent.com/29798223/121505913-652bcc00-ca22-11eb-82c4-1d973d7e826b.jpg)
 
 
