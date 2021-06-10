@@ -1,11 +1,11 @@
 # DST-chopperRescue
  Unity3D ML-agents chopper rescue test
 
-This is an early release example of a DST project that was developed to demonstrate visualisation as a service.
+This is an early pre-release example of a DST project that was developed to demonstrate visualisation as a service.
 
-It has been built to demonstrate extensibility of docker with an xpra VC xwindow on multiple machines.
+It was built to demonstrate extensibility of docker with an xpra VC x-window on multiple machines.
 
-It shows denegration of FPS dependent on platform.
+It shows performance of FPS is dependent on platform.
 
 The linegraph has a known memory leak that affects performance over time.
 
