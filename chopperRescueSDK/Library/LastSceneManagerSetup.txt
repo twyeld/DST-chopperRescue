@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ML-Agents/Levels/chopperRescue/Scenes/b2c-w-graphs.unity
+  isLoaded: 1
+  isActive: 1

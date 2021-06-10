@@ -1,0 +1,48 @@
+open HelicoptersIndepAgentsTroopsX.unity
+
+add Assets > Create > ML-Agents > Learning Brain to brain folder in game
+
+drag new brain into brain field for ChopperAcademy
+
+then make sure control is checked for ChopperAcademy under broadcast hub
+
+can change new learning brain from CPU - GPU
+
+open CMD
+
+CD to ml-agents-0.9.2 directory and:
+
+$ sudo mlagents-learn config/trainer_config.yaml --run-id=<run-identifier> --train
+
+<run-identifier> = chopperTraining1 etc
+
+when asked, press play button in unity
+
+let it run for at least 5 times
+
+ctrl+c to quit
+
+to view summaries in tensorflowboard:
+tensorboard --logdir=summaries
+
+Then navigate to `localhost:6006` in browser.
+
+sudo at front important - may need to close/reopen CMD if forgot sudo
+
+<<<<<<<< may need to reinstall mlagents to get path config: >>>>>>>>>>>
+
+cd to ml-agents-envs in the ml-agents-0.9.2-chopper directory:
+$ sudo pip3.6 install -e ./
+
+then cd ml-agents:
+$ sudo pip3.6 install -e ./
+
+the order these are installed is important!
+
+then cd back to top of ml-agents-0.9.2-chopper directory before trying to run:
+$ sudo mlagents-learn config/trainer_config.yaml --run-id=<run-identifier> --train
+
+
+<<<<<<<<<<<<<<<<< curriculum training >>>>>>>>>>>>>>>
+
+mlagents-learn config/trainer_config.yaml --curriculum=config/curricula/chopper/ --run-id=chopper-curriculum --train
